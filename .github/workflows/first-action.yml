@@ -1,3 +1,4 @@
+
 name: First Workflow
 on: workflow_dispatch
 jobs:
@@ -7,4 +8,6 @@ jobs:
       - name: Print greeting
         run: echo "Hello World!"
       - name: Print goodby
-        run: echo "Bye-Bye!"
+        run: |
+          echo "Bye-Bye!"
+          echo "Bye-Bye!"
